@@ -28,7 +28,7 @@ class PointTest {
 
     @Test
     void when22to22then2() {
-        double expected = 1.41;
+        double expected = 0;
         int x1 = 2;
         int y1 = 2;
         int x2 = 2;

@@ -6,9 +6,9 @@ import static org.assertj.core.api.Assertions.*;
 class SqAreaTest {
 
     @Test
-    void whenP6K1Square1point5() {
-        double expected = 1.5;
-        int p = 6;
+    void whenP5K1Square1point25() {
+        double expected = 1.25;
+        int p = 5;
         double k = 1;
         double out = SqArea.square(p, k);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
